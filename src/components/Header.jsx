@@ -4,6 +4,8 @@ export default function Header() {
   const navigation = useNavigate();
   const location = useLocation();
 
+  const headerStyle = () => {};
+
   function pathMatchRoute(route) {
     if (route === location.pathname) {
       return true;
