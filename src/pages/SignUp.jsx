@@ -64,7 +64,6 @@ export default function SignUp() {
     } catch (error) {
       toast.error("Please correctly fill all input fields");
     }
-    setFormData("");
   };
 
   return (
